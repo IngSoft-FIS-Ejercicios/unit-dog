@@ -1,6 +1,6 @@
 # Ejercicio Dog
 
-**ObjetivosÑ**
+**Objetivos:**
 - Realizar análisis estático de código
 - Aplicar buenas práticas de codificación
 - Codificar casos de test unitario
