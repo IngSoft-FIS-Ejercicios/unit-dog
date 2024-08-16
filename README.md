@@ -1,19 +1,18 @@
-# Ejercicio de calidad de código y test unitario
+# Ejercicio Dog
 
-## Objetivos
+**ObjetivosÑ**
+- Realizar análisis estático de código
+- Aplicar buenas práticas de codificación
+- Codificar casos de test unitario
+- Analizar cobertura y profundidad del test unitario
 
-* Realizar análisis estático de código
-* Aplicar buenas práticas de codificación
-* Codificar casos de test unitario
-* Analizar cobertura y profundidad del test unitario
-
-### Setup inicial
+## Setup inicial
 
 Clonar localmente el repositorio. 
 
 En la terminal moverse al directorio del proyecto y ejecutar `npm install`.
 
-### Parte A
+## Parte A
 
 1. En la terminal ejecutar `npm run lint`
 2. En la configuración de ESLint cambiar las reglas:
@@ -27,8 +26,7 @@ Hacer commit de los cambios y push al repositorio remoto
 
 Crear un issue con título `Parte A` y subir una captura de la terminal con 0 warnings
 
-
-### Parte B
+## Parte B
 
 1. En la terminal ejecutar `npm run test`
 2. En `package.json` agregar parámetro `--coverage` al script `test` y ejecutarlo
