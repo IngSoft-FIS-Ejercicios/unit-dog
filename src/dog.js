@@ -55,8 +55,8 @@ class Dog {
    * @return {string} A message indicating that the dog learned a new trick.
    */
   learnTrick(trick) {
-    if (trick == null || trick == '' ) {
-      throw new Error('Trick cannot be empty');
+    if (trick == null || trick == "") {
+      throw new Error("Trick cannot be empty");
     }
     this.tricks.push(trick);
     return `${this.name} learned a new trick: ${trick}.`;
@@ -66,7 +66,7 @@ class Dog {
    * Makes the dog bark.
    *
    * @return {string} A message indicating "Woof! Woof!".
-   */  
+   */
   bark() {
     // to do - leer el jsdoc
   }

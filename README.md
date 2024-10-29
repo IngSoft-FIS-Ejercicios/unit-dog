@@ -1,6 +1,7 @@
 # Ejercicio Dog
 
 **Objetivos:**
+
 - Realizar análisis estático de código
 - Aplicar buenas práticas de codificación
 - Codificar casos de test unitario
@@ -8,7 +9,7 @@
 
 ## Setup inicial
 
-Clonar localmente el repositorio. 
+Clonar localmente el repositorio.
 
 En la terminal moverse al directorio del proyecto y ejecutar `npm install`.
 
@@ -16,12 +17,12 @@ En la terminal moverse al directorio del proyecto y ejecutar `npm install`.
 
 1. En la terminal ejecutar `npm run lint`
 2. En la configuración de ESLint cambiar las reglas:
-    * linebreak-style: off
-    * quote: warn, single
+   - linebreak-style: off
+   - quote: warn, single
 3. En `package.json` agregar parámetro `--fix` al script `lint` y ejecutarlo
 4. Corregir manualmente el resto de problemas reportados en el código
-6. Aplicar buenas prácticas de codificación (ej: nomenclatura, comentarios)
-   
+5. Aplicar buenas prácticas de codificación (ej: nomenclatura, comentarios)
+
 Hacer commit de los cambios y push al repositorio remoto
 
 Crear un issue con título `Parte A` y subir una captura de la terminal con 0 warnings
